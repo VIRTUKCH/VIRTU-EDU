@@ -1,0 +1,7 @@
+.intro__content .inner .content .intro__text {
+  margin-bottom: 60px;
+  width: 100%;
+}
+.intro__content .inner .content .intro__text span {
+  font-weight: 700;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/edu_bef.css">
+
+  <script defer src="./js/moduljs/edu_bef.js"></script>
+  <title>VIRTU EDU</title>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <div class="header__home">
+        <div class="menu__btn">
+          <a href="/index.html" class="btn">HOME</a>
+        </div>
+        <h1>VIRTU EDU</h1>
+      </div>
+      <div class="header__menu">
+        <div class="menu__btn">
+          <a href="/intro.html" class="btn">소개</a>
+        </div>
+        <div class="menu__btn">
+          <a href="/edu_bef.html" class="btn">학습 전</a>      
+        </div>
+        <div class="menu__btn">
+          <a href="/edu_ing.html" class="btn">학습 중</a>
+        </div>
+        <div class="menu__btn">
+          <a href="/edu_aft.html" class="btn">학습 후</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="header">
+    <div class="inner">
+      <h2>&lt; 학습 전 &gt;</h2>
+    </div>
+  </section>
+
+  <section class="edu_bef__content">
+    <div class="inner">
+      <div class="content">
+        <div class="content__card">
+          <h3>목표 작성하기</h3>
+            <p>오늘 하루의 목표를 작성하세요. </p>
+            <form class="form__goal">
+              <input type="text" placeholder="ex) Java 자료형 공부하기">
+              <input type="submit" class="hidden">
+            </form>
+            <p>학습에 소요되는 시간을 분 단위로 작성하세요. ex) 30분  = 30</p>
+            <form class="form__time">
+              <input type="text" placeholder="ex) 30">
+              <input type="submit" class="hidden">
+            </form>
+        </div>
+        <div class="content__card">
+          <h3>질문지 작성하기</h3>
+          <p>오늘 공부의 핵심을 질문 형식으로 작성하세요.</p>
+          <form class="form__question">
+            <input type="text" placeholder="ex) Java에서 char 자료형의 size는?">
+            <input type="submit" class="hidden">
+          </form>
+          <p>위 질문에 대한 답을 답변 형식으로 작성하세요.</p>
+          <form class="form__answer">
+            <input type="text" placeholder="ex) 2byte">
+            <input type="submit" class="hidden">
+          </form>
+        </div>
+        <div class="start">
+          <a href="/edu_ing.html" class="btn">학습 시작하기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

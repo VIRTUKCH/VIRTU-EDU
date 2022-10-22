@@ -1,0 +1,27 @@
+.edu_aft__content .inner .content .content__card {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.edu_aft__content .inner .content .content__card p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.edu_aft__content .inner .content .content__card input {
+  width: 400px;
+  padding: 13px;
+  margin-top: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.edu_aft__content .inner .content .content__card #last_time {
+  font-size: 40px;
+}
+.edu_aft__content .finish {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.edu_aft__content .finish .start:first-child {
+  margin-right: 100px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/edu_ing.css">
+
+  <script defer src="./js/moduljs/edu_ing.js"></script>
+  <title>VIRTU EDU</title>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <div class="header__home">
+        <div class="menu__btn">
+          <a href="/index.html" class="btn">HOME</a>
+        </div>
+        <h1>VIRTU EDU</h1>
+      </div>
+      <div class="header__menu">
+        <div class="menu__btn">
+          <a href="/intro.html" class="btn">소개</a>
+        </div>
+        <div class="menu__btn">
+          <a href="/edu_bef.html" class="btn">학습 전</a>      
+        </div>
+        <div class="menu__btn">
+          <a href="/edu_ing.html" class="btn">학습 중</a>
+        </div>
+        <div class="menu__btn">
+          <a href="/edu_aft.html" class="btn">학습 후</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="header">
+    <div class="inner">
+      <h2>&lt; 학습 중 &gt;</h2>
+    </div>
+  </section>
+
+  <section class="edu_ing__content">
+    <div class="inner">
+      <div class="content">
+        <div class="content__card">
+          <img src="./images/clock.png" alt="시계">
+          <div>
+            <p>
+              <label for="timer">남은 시간 :</label>
+              <input type="text" id="timer" readonly>
+            </p>
+          </div>
+        </div>
+        <div class="content__card">
+          <div class="content__text">
+            <p>
+              오늘의 목표<br>
+            </p>
+            <p class="todays-goal"></p>
+          </div>
+          <div class="content__text">
+            <p>
+              오늘 공부의 핵심 질문<br>
+            </p>
+            <p class="todays-ques"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="start">
+      <a href="/edu_aft.html" class="btn">학습 종료하기</a>
+    </div>
+  </section>
+</body>
+</html>

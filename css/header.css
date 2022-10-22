@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  margin-top: 25px;
+  position: fixed;
+  top: 0;
+}
+header .inner {
+  display: flex;
+  justify-content: space-between;
+}
+header .inner .header__home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner .header__home h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 60px;
+}
+header .inner .header__menu {
+  display: flex;
+  align-items: center;
+}
+header .inner .menu__btn {
+  margin-right: 30px;
+}

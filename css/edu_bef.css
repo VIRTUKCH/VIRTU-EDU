@@ -1,0 +1,19 @@
+.edu_bef__content .inner .content .content__card {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.edu_bef__content .inner .content .content__card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.edu_bef__content .inner .content .content__card p {
+  font-weight: 500;
+}
+.edu_bef__content .inner .content .content__card input {
+  width: 300px;
+  padding: 8px 12px;
+  margin: 10px 0;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+}

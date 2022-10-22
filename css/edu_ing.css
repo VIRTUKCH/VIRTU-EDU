@@ -1,0 +1,32 @@
+.edu_ing__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.edu_ing__content .inner .content {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.edu_ing__content .inner .content .content__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edu_ing__content .inner .content .content__card img {
+  width: 250px;
+}
+.edu_ing__content .inner .content .content__card #timer {
+  width: 80px;
+  border: none;
+  font-size: 26px;
+  font-weight: 600;
+}
+.edu_ing__content .inner .content .content__card .content__text {
+  width: 100%;
+}
+.edu_ing__content .inner .content .content__card .content__text:first-child {
+  margin-bottom: 85px;
+}
